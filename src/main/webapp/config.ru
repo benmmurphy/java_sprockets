@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sprockets'
 require 'sass'
 require 'coffee_script'
+require 'eco'
 
 map '/assets' do
   root = File.dirname(__FILE__)

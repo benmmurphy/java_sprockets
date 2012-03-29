@@ -16,6 +16,7 @@ Example of using sprockets in a java web application.
 ## Run
 - ./mk_gems.sh
 - sbt run
+- http://localhost:4000
 - http://localhost:4000/assets/application.js
 - http://localhost:4000/assets/application.css
 

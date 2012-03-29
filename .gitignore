@@ -3,3 +3,4 @@ target
 sprocket_gems
 .bundle
 vendor/cache
+gen_assets

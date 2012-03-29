@@ -19,6 +19,12 @@ Example of using sprockets in a java web application.
 - http://localhost:4000/assets/application.js
 - http://localhost:4000/assets/application.css
 
+# Statically Compiling Assets
+
+    ./compile.sh
+    
+There is no magic to serve the statically compiled assets. Have a look at sinatra sprockets to see how to do this (https://github.com/thegorgon/sinatra-sprockets).
+
 #Info
 
 We use bundler install gems and package them up into a jar file in the lib directory. If you save the contents of this

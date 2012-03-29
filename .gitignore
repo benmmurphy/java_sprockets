@@ -1,2 +1,5 @@
 lib/sprocket_gems.jar
 target
+sprocket_gems
+.bundle
+vendor/cache

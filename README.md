@@ -28,5 +28,5 @@ There is no magic to serve the statically compiled assets. Have a look at sinatr
 
 #Info
 
-We use bundler install gems and package them up into a jar file in the lib directory. If you save the contents of this
-file you don't need to install jruby. JRuby is only necessary to run bundler.
+We use bundler install gems. If you save the contents of the WEB-INF/gems directory
+you don't need to install jruby. JRuby is only necessary to run bundler.

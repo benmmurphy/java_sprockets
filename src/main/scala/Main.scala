@@ -11,7 +11,7 @@ object Main extends App {
 
 
   val webapp = new WebAppContext()
-  webapp.setDescriptor("src/main/webapp/web.xml")
+  webapp.setDescriptor("src/main/webapp/WEB-INF/web.xml")
   webapp.setResourceBase("src/main/webapp")
   webapp.setContextPath("/")
   webapp.setParentLoaderPriority(true)
